@@ -1,6 +1,6 @@
 {
   "name": "@minisss/sessionstorage",
-  "description": "A Window sessionstorage Manager Lib",
+  "description": "A Window sessionStorage Manager Lib",
   "version": "1.0.0",
   "author": "minisss",
   "license": "MIT",

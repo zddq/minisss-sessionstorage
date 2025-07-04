@@ -1,6 +1,6 @@
 # @minisss/sessionstorage
 
-@minisss/sessionstorage 是一个专为浏览器环境设计的轻量级本地存储库，旨在简化对 sessionstorage 的操作，同时提供丰富的功能和更好的开发体验。
+@minisss/sessionstorage 是一个专为浏览器环境设计的轻量级本地存储库，旨在简化对 sessionStorage 的操作，同时提供丰富的功能和更好的开发体验。
 
 - ✅ 支持对象存储
 - ✅ 支持过期机制
