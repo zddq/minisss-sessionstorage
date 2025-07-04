@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@minisss/sessionstorage MSSessionStorage</title>
+  </head>
+
+  <body>
+    <!-- script UMD 引入方式 -->
+    <script src="../out/index.umd.js"></script>
+    <script>
+      const ls = MSSessionStorage.create({ prefix: "XX_DEV_680", isUseAes: true });
+      console.log("实例对象", ls);
+      console.log(ls.has("key"));
+      console.log(ls.set("key", { a: 1, b: "2", c: [1, 2, 3] }, { maxAge: 5 }));
+      console.log(ls.get("key"));
+      const TID = setInterval(() => {
+        const tmpVal = ls.get("key");
+        console.log("TID", TID, "tmpVal", tmpVal);
+        !tmpVal && clearInterval(TID);
+      }, 1000);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+{
+  "name": "@minisss/sessionstorage",
+  "description": "A Window sessionstorage Manager Lib",
+  "version": "1.0.0",
+  "author": "minisss",
+  "license": "MIT",
+  "keywords": [
+    "@minisss/sessionstorage",
+    "MSSessionStorage",
+    "sessionStorage",
+    "minisss",
+    "MS"
+  ],
+  "files": [
+    "out",
+    "types"
+  ],
+  "module": "out/index.esm.js",
+  "main": "out/index.cjs.js",
+  "browser": "out/index.umd.js",
+  "unpkg": "out/index.umd.js",
+  "types": "types/index.d.ts",
+  "homepage": "https://github.com/zddq/minisss-sessionstorage/tree/main",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zddq/minisss-sessionstorage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zddq/minisss-sessionstorage/issues",
+    "email": "mini_npm_lib@163.com"
+  },
+  "scripts": {
+    "w": "rollup -c rollup.config.mjs --watch",
+    "b": "rollup -c rollup.config.mjs",
+    "test": "jest --coverage"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-typescript": "^7.27.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.4",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.10",
+    "babel-jest": "^30.0.4",
+    "jest": "^30.0.4",
+    "prettier": "^3.6.2",
+    "rollup": "^4.44.1",
+    "rollup-plugin-delete": "^3.0.1",
+    "rollup-plugin-visualizer": "^6.0.3",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  }
+}
